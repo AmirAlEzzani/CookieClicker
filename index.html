@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Cookie Clicker</title>
+    <link rel="icon" href="./assets/cookie.png">
+</head>
+<body background="./assets/background.jpg">
+    <div class="title"><p>Cookie Clicker!</p></div>
+    <br>
+    <div class="numOfCookies">
+        <p id="cookieDisplay">Cookies: 0</p>
+    </div>
+    
+    <div class="cookie">
+        <img src="./assets/cookie.png" id = "cookieImg" onmousedown="changeImg()" onmouseup="changeImgBack()" onClick="bakeCookie()" >
+        </button>
+    </div>
+    <br> <br>
+    <div class="upgrades">
+        <button id = "multiplierUpgrade" onclick="upgradeMultiplier()">Upgrade Multiplier<br>Cost: 10</button>
+        <button id = "upgradeBaker" onclick="hireBaker()">Hire a Baker<br>Cost: 100</button>
+    </div>
+
+     <script src="script.js"></script>
+
+</body> 
+</html>

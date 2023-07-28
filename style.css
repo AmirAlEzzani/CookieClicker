@@ -1,0 +1,22 @@
+.title {
+    text-align: center;
+    color: rgba(255,255,255,1);
+}
+
+.numOfCookies {
+    text-align: center;
+    color: rgba(255,255,255,1);
+    
+  }
+
+.cookie {
+    display: flex;
+    justify-content: center;
+  }
+
+  .upgrades {
+    display: flex;
+    justify-content: center;
+    
+  }
+
